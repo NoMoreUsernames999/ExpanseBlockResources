@@ -2,6 +2,7 @@ package expansedecorations.mod;
 
 import expansedecorations.mod.proxy.CommonProxy;
 import expansedecorations.mod.util.Reference;
+import expansedecorations.mod.util.handlers.RegistryHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -25,7 +26,10 @@ public class Main {
 	@EventHandler	
 	public static void preInit(FMLPreInitializationEvent event) {}
 	@EventHandler	
-	public static void init(FMLInitializationEvent event) {}
+	public static void init(FMLInitializationEvent event) {
+		
+		RegistryHandler.InitRegistries(); 
+	}
 	@EventHandler	
 	public static void postInit(FMLPostInitializationEvent event) {}
 	

@@ -1,0 +1,25 @@
+/*{   //Name that was registered to the variable 
+*		"voice.pda.test1":
+*	{
+*     //Category name. Set as the first part of your registry name. 
+*		"category": "voice",
+*
+*     //Subtitle is the name you refer to it in game. It's what comes up with tab auto complete in commands. 
+*     //It can be anything, but setting it to anything other than the registry name can get confusing. 
+*	  //As here, you can set a partial subtitle so that it auto completes only part of it, so that you can select
+*	  //which file you want to play if you have multiple of the same name with suffixes. So to auto complete the
+*	  //command to "test1", you would need to tab twice. 
+*		"subtitle": "voice.pda",
+*
+*     //String name with the resource location of the sound file. 
+*		"sounds": [{ "name": "expansedecorations:voice/pda/test1", "stream": true}]
+*	},
+*	
+*		"voice.pda.test2":
+*	{
+*		"category": "voice",
+*		"subtitle": "voice.pda",
+*		"sounds": [{ "name": "expansedecorations:voice/pda/test2", "stream": true}]
+*	}
+*}
+*/

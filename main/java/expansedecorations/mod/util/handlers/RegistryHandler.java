@@ -22,11 +22,11 @@ public class RegistryHandler {
 	} 
 
 @SubscribeEvent 
-public static void onBlockRegister(RegistryEvent.Register<Block> event) {
+	public static void onBlockRegister(RegistryEvent.Register<Block> event) {
 
 	//Register all blocks inside of block array
 	event.getRegistry().registerAll(BlockInit.BLOCKS.toArray(new Block[0])); 
-} 
+	} 
 	
 @SubscribeEvent 
 //Register all models until finished 
@@ -47,5 +47,10 @@ public static void onBlockRegister(RegistryEvent.Register<Block> event) {
 				((IHasModel)block).registerModels();  
 			}
 		}
+	}
+
+	public static void InitRegistries() {
+		
+		SoundsHandler.registerSounds(); 
 	}
 }

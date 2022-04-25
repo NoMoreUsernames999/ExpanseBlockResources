@@ -1,0 +1,15 @@
+{
+		"voice.pda.test1":
+	{
+		"category": "voice",
+		"subtitle": "voice.pda",
+		"sounds": [{ "name": "expansedecorations:voice/pda/test1", "stream": true}]
+	},
+	
+		"voice.pda.test2":
+	{
+		"category": "voice",
+		"subtitle": "voice.pda",
+		"sounds": [{ "name": "expansedecorations:voice/pda/test2", "stream": true}]
+	}
+}
